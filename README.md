@@ -1,4 +1,4 @@
-# draftmodel
+# Pro Draft Model for League of Legends
 Support vector classification model for professional League of Legends drafts
 
 ## Description
