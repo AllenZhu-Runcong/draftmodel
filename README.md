@@ -6,8 +6,6 @@ This Python tool utilizes Support Vector Classification (SVC) algorithm to predi
 
 ## Requirements
 - Python 3.7 or higher
-- Scikit-learn library
-- Pandas library
 
 ## Installation
 1. Clone or download the repository to your local machine.
@@ -27,7 +25,7 @@ This Python tool utilizes Support Vector Classification (SVC) algorithm to predi
 Champion names should be inputted as
 
 ## Limitations and Issues
-1. The model evaluates drafts that are likely to win - this may not be directly causitive (i.e. a draft is likely to win not because the team composition is stronger, but rather a stronger team is likely to draft in such a fashion) .It is impossible the evaluate and effictively parameterise the strengths of teams' play to include in the training data. Thus, the model cannnot account for this.
+1. The model evaluates drafts that are likely to win - this may not be directly causitive (i.e. a draft is likely to win not because the team composition is stronger, but rather a stronger team is likely to draft in such a fashion.) It is impossible the evaluate and effictively parameterise the strengths of teams' play to include in the training data. Thus, the model cannnot account for this.
 2. Predictions will often remain in the same direction even when the champions on the teams are switched. This is inconsistent with the general understanding of draft dynamics.
 
 ## Data Smoothing
