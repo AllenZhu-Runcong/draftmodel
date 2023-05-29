@@ -2,7 +2,7 @@
 C-Support vector classification model for professional League of Legends drafts
 
 ## Description
-This Python tool utilizes Support Vector Classification (SVC) algorithm to predict the outcome of professional League of Legends drafts.
+This Python tool utilizes Support Vector Classification (SVC) algorithm to predict the outcome of professional League of Legends drafts using 17800 professional games played from 2022-2023. This model has a ~55% accuracy against the training set.
 
 ## Requirements
 - Python 3.7 or higher
@@ -27,3 +27,5 @@ This Python tool utilizes Support Vector Classification (SVC) algorithm to predi
 Champion names should be inputted as
 
 ## Limitations and Issues
+1. The model evaluates drafts that are likely to win - this may not be directly causitive (i.e. a draft is likely to win not because the team composition is stronger, but rather a stronger team is likely to draft in such a fashion) .It is impossible the evaluate and effictively parameterise the strengths of teams' play to include in the training data. Thus, the model cannnot account for this.
+Predictions will often signify 
