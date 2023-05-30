@@ -15,14 +15,8 @@ This Python tool uses a Support Vector Classification (SVC) algorithm to predict
    ```
 
 ## Usage
-1. Prepare your dataset: Create a CSV file containing the historical data of League of Legends games. Each row represents a game, and each column represents a feature or statistic. Make sure to include the outcome (win/loss) of each game as the target variable.
-2. Open the `predictor.py` file in a text editor or IDE.
-3. Modify the `dataset_path` variable in the `predict_outcome` function to point to the location of your dataset file.
-4. Run the `predictor.py` file. The tool will load the dataset, train the SVC model, and predict the outcome of new games.
-5. The predicted outcomes will be displayed on the console.
+1. 
 
-## Input Format
-Champion names should be inputted as
 
 ## Limitations and Issues
 1. The model evaluates drafts that are likely to win - this may not be directly causitive (i.e. a draft is likely to win not because the team composition is stronger, but rather a stronger team is likely to draft in such a fashion.) It is impossible the evaluate and effictively parameterise the strengths of teams' play to include in the training data. Thus, the model cannnot account for this.
